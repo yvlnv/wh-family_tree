@@ -1,0 +1,14 @@
+{
+  "name": "family_tree",
+  "version": "1.0.0",
+  "description": "test family tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "yana",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}

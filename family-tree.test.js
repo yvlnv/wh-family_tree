@@ -13,23 +13,23 @@ describe('Family Tree', function () {
         expect(me.age).toEqual(7)
     })
 
-    test('My mother is also there', function () {
+    test('My mother is added', function () {
         const mother = familyTree[1]
         expect(mother.name).toEqual('Irina')
     })
 
-    test('My mother is also there', function () {
+    test('My grandma is added', function () {
         const grandma = familyTree[2]
         expect(grandma.name).toEqual('Valentina')
     })
 
-    test('Mum is older that me', function () {
+    test('Mum is older than me', function () {
         const me = familyTree[0]
         const mother = familyTree[1]
         expect(mother.age).toBeGreaterThan(me.age)
     })
 
-    test('My parents have differet sex', function () {
+    test('My parents have different sex', function () {
         const me = familyTree[0]
         const mother = familyTree[1]
         const father = familyTree[3]
